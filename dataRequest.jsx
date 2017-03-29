@@ -91,9 +91,9 @@ class DataRequest extends React.Component {
 						    {this.pageNumber.map(function(page,i){
 						    
 				    			if (page==this.state.currentPage) {
-				    			return <li className="active" key={i+10000} onClick={this.changeState}><a href={"/#/"+this.uri+"/"+page}>{page}</a></li>
+				    			return <li className="active" key={i+10000} onClick={this.changeState}><a href={"React_douban/#/"+this.uri+"/"+page}>{page}</a></li>
 				    			}else{
-				    			return <li key={i+10000} onClick={this.changeState}><a href={"/#/"+this.uri+"/"+page}>{page}</a></li>
+				    			return <li key={i+10000} onClick={this.changeState}><a href={"React_douban/#/"+this.uri+"/"+page}>{page}</a></li>
 				    			}
 						    		
 						    },this)}
