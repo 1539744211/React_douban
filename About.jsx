@@ -14,7 +14,7 @@ class About extends React.Component {
 					
 					return (
 						<div className='list-group' key={ item.id } >
-							<a href={"/#/subject/"+item.id} className="list-group-item">
+							<a href={"#/subject/"+item.id} className="list-group-item">
 						     	<span className="badge">{item.rating.average}</span>
 						        <div className="media">
 						            <div className="media-left" href="#">
